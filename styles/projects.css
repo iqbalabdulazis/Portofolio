@@ -1,0 +1,27 @@
+.tools-showcase {
+    height: 1100px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools-showcase-header {
+    font-family: roboto, arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 40px auto 40px 50px;
+}
+
+.tools-list div {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin: 10px 0px;
+    border-top: 2px solid rgb(240, 240, 240);
+}
+
+.tools-showcase-grid {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}

@@ -1,0 +1,167 @@
+.profile-canvas {
+    height: 550px;
+    background: linear-gradient(to right, rgb(204, 204, 204), grey);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile {
+    height: 550px;
+    background:linear-gradient(to left, white, rgb(245, 245, 245));
+    width: 100%;
+}
+
+.tools-icon {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html-icon, .css-icon, .js-icon, .reactjs-icon, .vuejs-icon, .nodejs-icon, .bootstrap-icon, .tailwindcss-icon, .python-icon, .mysql-icon, .tools-more {
+    height: 20px;
+    margin: 0 8px 0 8px;
+}
+
+.tools-more {
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid rgb(105, 105, 105);
+    border-radius: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+}
+
+img:hover, .tools-more:hover {
+    opacity: 80%;
+}
+
+.tech-stack {
+    font-size: 10px;
+    margin-right: 10px;
+    font-family: roboto, arial;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo-canvas {
+    width: 50%;
+    overflow: hidden;
+    height: 1fr;
+}
+
+.profile-photo-container {
+    height: 100%;
+    width: 300px;
+    margin: 80px 70px 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile-photo {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.profile-photo:hover {
+    opacity: 90%;
+}
+
+.profile-description {
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width:768px) {
+    .profile-photo-container {
+        max-width: 70%;
+        margin-left: 40px;
+    }
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-top: auto;
+}
+
+.profile-description p {
+    font-size: 17px;
+    margin: 0 35% auto auto;
+}
+
+@media (max-width:768px) {
+    .profile-description p, h2 {
+        margin-right: 10%;
+    }
+}
+
+h2, .profile-description p {
+    font-family: roboto, arial;
+}
+
+.socials {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.socials img, .socials a {
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+.socials p {
+    display: inline;
+    margin: auto 10px auto 0;
+    font-size: 10px;
+    margin-right: 10px;
+    font-family: roboto, arial;
+    font-weight: bold;
+}
+
+img:active {
+    opacity: 50%;
+}
+
+.documents-download a button {
+    font-family: roboto, arial;
+    padding: 5px 12px;
+    margin: 12px 10px auto auto;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+    border: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+.documents-download p {
+    display: inline;
+    margin: auto 10px auto 0;
+    font-size: 10px;
+    margin-right: 10px;
+    font-family: roboto, arial;
+    font-weight: bold;
+}
+
+.documents-download a button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
